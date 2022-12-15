@@ -1,6 +1,5 @@
 #index {
     padding: 20px;              /* 余白指定 */
-    background-color:  #ddd;    /* 背景色指定 */
     height: 300px;              /* 高さ指定 */
     width: 640px;               /* 幅指定 */
     position: relative;         /* 位置指定の基準点にする */
