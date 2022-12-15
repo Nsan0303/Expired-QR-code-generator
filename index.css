@@ -1,7 +1,5 @@
 #index {
     padding: 20px;              /* 余白指定 */
-    height: 300px;              /* 高さ指定 */
-    width: 640px;               /* 幅指定 */
     position: relative;         /* 位置指定の基準点にする */
      position: absolute;          /* 位置指定 */
      padding: 20px;               /* 余白指定 */
@@ -10,8 +8,6 @@
      left:  0;                    /* 位置指定 */
      right:  0;                   /* 位置指定 */
      margin:  auto;               /* 中央寄せ */
-     width:  150px;               /* 幅指定 */
-     height: 80px;                /* 高さ指定 */
 }
 
 main {
