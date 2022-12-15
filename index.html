@@ -15,11 +15,16 @@
 
   <!-- メインコンテンツ -->
   <main>
-    <h1>期限付きでQRこーどを作る</h1>
-    <p>urlを入力/p>
-      <label for="url">Enter an https:// URL:</label>
-
+    <h1>期限付きでQRコードを作る</h1>
+    <div class="form">
+      <label for>urlを入力</label>
       <input type="url" name="url" id="url" placeholder="https://example.com" pattern="https://.*" size="30" required>
+
+      <label for="tentacles">期限を入力　※日数で</label>
+      <input type="number" id="tentacles" name="tentacles" min="10" max="100">
+
+      <input type="submit" value="作成" />
+    </div>
 
   </main>
 
